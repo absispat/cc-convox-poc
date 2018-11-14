@@ -12,6 +12,7 @@ jobs:
     docker:
       - image: circleci/ruby
     steps:
+      - checkout
       - run: curl -L https://convox.com/cli/linux/convox -o /tmp/convox
       - run: sudo mv /tmp/convox /usr/local/bin/convox
       - run: sudo chmod 755 /usr/local/bin/convox
