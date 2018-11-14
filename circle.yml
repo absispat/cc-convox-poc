@@ -1,0 +1,11 @@
+dependencies:
+  post:
+    - curl -Ls https://install.convox.com/linux.zip > convox.zip
+    - sudo unzip convox.zip -d /usr/local/bin
+deployment:
+  staging:
+    branch: master
+    commands:
+    	- convox login  
+      	- convox switch personal/deserve-poc
+      	- convox deploy --app poc-app
