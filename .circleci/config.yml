@@ -13,8 +13,8 @@ jobs:
       - image: circleci/ruby
     steps:
       - run: curl -L https://convox.com/cli/linux/convox -o /tmp/convox
-      - run: mv /tmp/convox /usr/local/bin/convox
-      - run: chmod 755 /usr/local/bin/convox
+      - run: sudo mv /tmp/convox /usr/local/bin/convox
+      - run: sudo chmod 755 /usr/local/bin/convox
       - run: convox login  
       - run: convox switch personal/deserve-poc
       - run: convox deploy --app poc-app
