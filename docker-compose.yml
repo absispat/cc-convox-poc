@@ -1,0 +1,20 @@
+web:
+  build: .
+  cpu_shares: 10
+  mem_limit: 512MB
+  labels:
+    - convox.port.443.protocol=tls
+  links:
+    - database
+  ports:
+    - 80:3000
+    - 443:3000
+
+database:
+  image: convox/postgres
+  labels:
+    - convox.health.timeout=60
+  ports:
+    - 5432
+  volumes:
+    - /var/lib/postgresql/data
