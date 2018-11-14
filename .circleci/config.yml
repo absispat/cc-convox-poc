@@ -6,6 +6,6 @@ deployment:
   staging:
     branch: master
     commands:
-    	- convox login  
-      	- convox switch personal/deserve-poc
-      	- convox deploy --app poc-app
+        - convox login
+        - convox switch personal/deserve-poc
+        - convox deploy --app poc-app
