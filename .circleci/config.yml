@@ -24,7 +24,7 @@ workflows:
   version: 2
   deploy:
     jobs:
-      - staging_deploy:
+      - prod_deploy:
           filters:
             branches:
               only: master
