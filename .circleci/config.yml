@@ -1,11 +1,30 @@
-dependencies:
-  post:
-    - curl -Ls https://install.convox.com/linux.zip > convox.zip
-    - sudo unzip convox.zip -d /usr/local/bin
-deployment:
-  staging:
-    branch: master
-    commands:
-        - convox login
-        - convox switch personal/deserve-poc
-        - convox deploy --app poc-app
+# This configuration was automatically generated from a CircleCI 1.0 config.
+# It should include any build commands you had along with commands that CircleCI
+# inferred from your project structure. We strongly recommend you read all the
+# comments in this file to understand the structure of CircleCI 2.0, as the idiom
+# for configuration has changed substantially in 2.0 to allow arbitrary jobs rather
+# than the prescribed lifecycle of 1.0. In general, we recommend using this generated
+# configuration as a reference rather than using it in production, though in most
+# cases it should duplicate the execution of your original 1.0 config.
+version: 2
+jobs:
+  prod_deploy:
+    docker:
+      - image: circleci/ruby
+    steps:
+      - run: curl -L https://convox.com/cli/linux/convox -o /tmp/convox
+      - run: mv /tmp/convox /usr/local/bin/convox
+      - run: chmod 755 /usr/local/bin/convox
+      - run: convox login  
+      - run: convox switch personal/deserve-poc
+      - run: convox deploy --app poc-app
+
+
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - staging_deploy:
+          filters:
+            branches:
+              only: master
