@@ -7,7 +7,10 @@ phases:
       - echo Entered the install phase...
       - curl -L https://convox.com/cli/linux/convox -o /tmp/convox
       - mv /tmp/convox /usr/local/bin/convox
-      - chmod 755 /usr/local/bin/convox            
+      - chmod 755 /usr/local/bin/convox 
+      - convox login console.convox.com -p 229d0768-4f06-4c04-b914-f2497bd8295b  
+      - convox switch personal/demo-deserve-poc      
+      
     finally:
       - echo This always runs even if the update or install command fails
   pre_build:
@@ -20,6 +23,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
+      - convox build -a poc-app -m convox.yml
     finally:
       - echo This always runs even if the install command fails
   post_build:
