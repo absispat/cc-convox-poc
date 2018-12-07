@@ -23,10 +23,13 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - convox build -a poc-app -m convox.yml
+      - release_id=$(convox build -a poc-app -m convox.yml --id)
     finally:
       - echo This always runs even if the install command fails
   post_build:
     commands:
       - echo Entered the post_build phase...
-      - echo Build completed on `date`
+      - echo Build completed on `date`      
+      - convox run web ls -a poc-app --release $release_id
+      - convox releases promote $release_id -a poc-app
+
