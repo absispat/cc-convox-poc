@@ -1,0 +1,13 @@
+diff --git a/Gemfile b/Gemfile
+index 063658f..9a338e7 100644
+--- a/Gemfile
++++ b/Gemfile
+@@ -7,7 +7,7 @@ source 'https://rubygems.org'
+ #jhsdjhsdggshgdhgdsh
+ #jdjfhjdfhjhfjhdfjh
+ #sdsdsdsd
+-#jshdjhjsdhjdhjhdsjsdsdsd
++
+ #khhsfjshdjhdsj
+ # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ gem 'rails', '4.2.10'
