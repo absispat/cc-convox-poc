@@ -28,6 +28,7 @@ phases:
       - echo Entered the build phase...
       - echo Build started on `date`
       - RELEASE_ID=$(convox build -a poc-app -m convox.yml --id)
+      - echo $RELEASE_ID
       - convox run web ls -a poc-app --release $RELEASE_ID
       - convox releases promote $RELEASE_ID -a poc-app      
     finally:
