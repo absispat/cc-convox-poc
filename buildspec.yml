@@ -12,7 +12,7 @@ phases:
       - curl -L https://convox.com/cli/linux/convox -o /tmp/convox
       - mv /tmp/convox /usr/local/bin/convox
       - chmod 755 /usr/local/bin/convox 
-      - convox login console.convox.com -p 0aff70da-3669-4760-a868-5c3838651436  
+      - convox login console.convox.com -p eefc5bc2-15fa-4f23-afed-4da557badc9c  
       - convox switch personal/demo-deserve-poc      
       
     finally:
