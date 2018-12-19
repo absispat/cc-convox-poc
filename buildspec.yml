@@ -1,8 +1,8 @@
 version: 0.2
 
 env:
- variables:
-   RELEASE_ID: "test"
+ parameter-store:
+  convox_password: "dockerLoginPassword"
    
 phases:
   install:
@@ -12,8 +12,8 @@ phases:
       - curl -L https://convox.com/cli/linux/convox -o /tmp/convox
       - mv /tmp/convox /usr/local/bin/convox
       - chmod 755 /usr/local/bin/convox 
-      - convox login console.convox.com -p eefc5bc2-15fa-4f23-afed-4da557badc9c  
-      - convox switch personal/demo-deserve-poc      
+      - convox login console.convox.com -p $convox_password  
+      #- convox switch personal/demo-deserve-poc      
       
     finally:
       - echo This always runs even if the update or install command fails
@@ -27,7 +27,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - RELEASE_ID=$(convox build -a poc-app -m convox.yml --id)
+      #- RELEASE_ID=$(convox build -a poc-app -m convox.yml --id)
            
     finally:
       - echo This always runs even if the install command fails
@@ -35,6 +35,6 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
-      - convox run web ls -a poc-app --release $RELEASE_ID
-      - convox releases promote $RELEASE_ID -a poc-app  
+      #- convox run web ls -a poc-app --release $RELEASE_ID
+      #- convox releases promote $RELEASE_ID -a poc-app  
       
