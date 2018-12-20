@@ -1,0 +1,51 @@
+72f0b94 testing release
+20e3d12 [TES-2] hsjdhsjhsdjsd
+5159897 adding third timr
+d326074 adding second time sd
+1d3b715 added to dev branch for first time
+a448eaa commit for changeling
+1619806 Update Gemfile
+4f74d0e changes made to testing 6
+106564c comit 5
+f37f74f made changes to testing
+b578462 commit 3
+fa78990 commit 2
+e6bdebe commit 1
+2a72dbd TEST-3 #Done closing
+4fe91f8 TEST-3 #close #comment Fixed this today
+9bd9031 TEST-3 #comment corrected indent issue
+2281dd0 [TEST-3] #comment we are testing commits
+623e3c0 jhdjfjdhfjjfd
+e0d2047 dsdsdsd
+ea8ba8e dsdsdsd
+8fdc1ed dcsdssd
+f23dda9 Jenkinsfile 1
+8b1e09c https://absipat.atlassian.net/browse/TEST-3 #comment vx
+ecbe742 TEST-3 #time 1w 2d 4h 30m Total work logged
+9977ec5 TEST/TEST-2 #comment checking test commit
+d3925b8 https://absipat.atlassian.net/browse/TEST-2 #comment checking test commit
+9322571 TEST-1 #time 1w 2d 4h 30m Total work logged
+c5d7992 TEST-2 #comment corrected indent issue
+51b889e TEST-1 #comment testing jira
+2974e74 TEST1 #comment jira
+c88c992 Create testing
+04d8ed7 Updated circle files
+a318b37 Updated circle files
+10fdf91 Updated circle files
+da6cff7 Updated circle files
+46aa73d Updated circle files
+ae59b7d Added circle.yml
+4110797 Initail Commit
+diff --git a/testing b/testing
+index bb025f9..c713220 100644
+--- a/testing
++++ b/testing
+@@ -11,7 +11,7 @@ sdsdsdsd
+ sdsdsd
+ sdsdds
+ sdjsdjsdg
+-sdsdsdsd
++
+ sddsdsddsd
+ sd
+ dsd
