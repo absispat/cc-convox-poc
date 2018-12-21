@@ -1,0 +1,47 @@
+6e74522dc24b5797d9f0a321197b908f0fa72ee7 DEV-2879  fdfdf  cvcvcv vc testing dfdfdfd
+fabd9cdd7f97094195ee881aa7189fddbac1170c DEV-2879  fdfdf testing dfdfdfd
+8db9f1f3ea70d47e159d518642da0a981d18904d DEV-2859 testing dfdfdfd
+a45559b4c12987c122ca561c549ad52987903819 asasvdfdf
+0bcfb613e7e97457f1fed5ff724b5e48b621697a asasvdfdf
+fd2c3833cc4e1b7e323aa8cb1606c9583cf75257 asas
+d29a0048e116d25bf460d7d33bdd3278913201de asas
+fd804b3840062a5f8c7271fc656a501bae9dd2b0 checking commit changes 12212
+34f350edd18a25431c40770cd05c868921cc776c checking commit changes
+56d4f94bf7fa96f609376d8f8032a10bcb1b830c Update buildspec.yml
+11e3b324e37446c9e4c40a778bbf70788fbebd9c Update buildspec.yml
+3c1b23d78f94f2739e1ddde89ccfd1072196e654 TES-2 #comment tesing againdfdfdfd
+add150f733bbfb34fdc63dee3a32dd822ef7b533 TES-2 #commit tesing again
+63b0658d44caa69686eefb54e390b9cbce593573 TES-2 #time 1d working time
+4fb81b214e9efefe6f4537d12b258e1aa931da90 TES-2 #comment testing
+76740bc8cc932901e2fd9f3dc037ea37c56a30e7 TES-2 this is a commit 1
+a4593a0d940d6ef6d1ef8836a7266ad28246135e test1/TES-2 skdjksdjksdjds
+e4958c6bb86660f2390725fd954c221ad56fc813 [TES-2] testing
+ab318b4acff601b3e6003ecaea87388f23f9b12f [TES-2] testing done
+29d4711724639068d957b49fb0b6bb2a1b6fcb3b [TES-2] testing jira bot
+c64e20444df6dcb5cff0f8de322b631b33c2a141 TES-2 #comment testing jira bot
+8087c5a6863b37148c9ed141f97c9c4cf7fe4b73 [TES-2] testing jira bot
+7b1e6f518e3c5478f587ff7baf5372d62832dd93 [TES-2] #comment 1w 2d 4h 30m Total work logged
+43886fde95975ed80a74a405fa30c4455899a8df TES-2 #time 1w 2d 4h 30m Total work logged
+0d799791ad807f7f31d31be74e1293a7dda004ee TES-2 #comment testing
+85fe33417ecf00fa5934db85370a53eebd6edb3e DEV-2879 #comment ksdjksjdksjdk
+7bff79ae9c304eaffa5905ccf2880ebc4a77ebc8 TEST-3 making commit
+c71760306c68e8b3bc5b562a4ad597751e718ac2 TEST-4 #DONE #comment Fixed this today
+84dfda50e43a748c51314600b49b2c668a9e9fb1 JRA-090 #DONE #comment Fixed this today
+d6e83a9a37fe8216ccf2d5d281477fbfae9ba744 TEST-4 #close #comment Fixed this today
+612074463efc6ac26f51ab2b7fbde90b1b897d72 TEST-3 #time 2d 4h 30m Total work logged
+47cf3c81cd05ec4023810c530f4655a3b7c2be94 TEST-3 #time 1w 2d 4h 30m Total work logged
+90e200c147ab3b44453ec7690490a81a28350f10 Update buildspec.yml
+00c7e020a75f1c0f28ca5032a7fc5824131504ed changes the key
+706c77124b2f245b632bdcb63a113ca48a7968d4 made changes this is commit 1
+194b3606679644e3c24a5f95886b9d09fd8aad0e Update Gemfile
+5afee307db3cb591b4199ad883b14db85e50d835 testing commit 7
+e5c36fe1d02ecc63503dcbd6c691d7b3cedb169a test123
+d246d8bfd8b1fc3e41766fb07b2b0d15fd520605 test 5
+8562cceaa9a5b9b127a4f0d93ebc71a12ec765bc test5
+c7675fd0a47f726b9d82221e93c99cdd7879a612 test 4
+abf106f8e1c68de99f7066dd1694ff8ee788abe4 test three
+a50295462d371f9ff6f70a65e2dd4b89ecb9aec6 build 2
+6b2d8c773cbe9019795cf0b534e2fcd64b5a36e4 aded convos
+c3de5a99e8be3d349dbeb88c5a26a3e5606dd23e changes made
+a45ddb1d9c47c8e19e5ae9264da85b3e5a858be6 added specffile
+48c0f9a14a599a853a7d0e02dab90bccc46e88cf TEST-3 Making changes to the GEM file

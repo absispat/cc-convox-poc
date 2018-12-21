@@ -1,4 +1,5 @@
-Release info
-i6e74522dc24b5797d9f0a321197b908f0fa72ee7 DEV-2879 fdfdf cvcvcv vc testing dfdfdfd Abhishek Patil CC test GITJIRA
-fabd9cdd7f97094195ee881aa7189fddbac1170c DEV-2879 fdfdf testing dfdfdfd Abhishek Patil CC test GITJIRA
-8db9f1f3ea70d47e159d518642da0a981d18904d DEV-2859 testing dfdfdfd Roshan Surana CC testing Jira Github Integration Smart Commit
+Release Notes
+6e74522dc24b5797d9f0a321197b908f0fa72ee7 DEV-2879 fdfdf cvcvcv vc testing dfdfdfd Assignee: Abhishek Patil Ticket Summary : CC test GITJIRA
+fabd9cdd7f97094195ee881aa7189fddbac1170c DEV-2879 fdfdf testing dfdfdfd Assignee: Abhishek Patil Ticket Summary : CC test GITJIRA
+8db9f1f3ea70d47e159d518642da0a981d18904d DEV-2859 testing dfdfdfd Assignee: Roshan Surana Ticket Summary : CC testing Jira Github Integration Smart Commit
+85fe33417ecf00fa5934db85370a53eebd6edb3e DEV-2879 #comment ksdjksjdksjdk Assignee: Abhishek Patil Ticket Summary : CC test GITJIRA
