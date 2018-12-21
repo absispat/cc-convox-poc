@@ -1,0 +1,7 @@
+i6e74522dc24b5797d9f0a321197b908f0fa72ee7 DEV-2879  fdfdf  cvcvcv vc testing dfdfdfd
+fabd9cdd7f97094195ee881aa7189fddbac1170c DEV-2879  fdfdf testing dfdfdfd
+8db9f1f3ea70d47e159d518642da0a981d18904d DEV-2859 testing dfdfdfd
+6b2d8c773cbe9019795cf0b534e2fcd64b5a36e4 aded convos
+c3de5a99e8be3d349dbeb88c5a26a3e5606dd23e changes made
+a45ddb1d9c47c8e19e5ae9264da85b3e5a858be6 added specffile
+48c0f9a14a599a853a7d0e02dab90bccc46e88cf TEST-3 Making changes to the GEM file

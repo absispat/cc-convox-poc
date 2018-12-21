@@ -1,8 +1,10 @@
-v1=DEV-2879
+v1="DEV-2879  fdfdf  cvcvcv vc testing dfdfdfd"
+
+v2=`echo $v1 | grep -o 'DEV-[^ ,]\+'`
 
 echo $v1
 
-url1="https://selfscore.atlassian.net/rest/api/3/issue/$v1?fields=summary,assignee"
+url1="https://selfscore.atlassian.net/rest/api/3/issue/$v2?fields=summary,assignee"
 
 echo $url1
 
