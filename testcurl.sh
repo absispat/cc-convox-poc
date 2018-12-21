@@ -6,9 +6,9 @@ echo $v1
 
 url1="https://selfscore.atlassian.net/rest/api/3/issue/$v2?fields=summary,assignee"
 
-echo $url1
+#echo $url1
 
 
 curl --request GET \
   --url $url1 \
-  --header 'Authorization: Basic cm9zaGFuQGNsZGN2ci5jb206UjBzYW5AMTI='
+  --header 'Authorization: Basic cm9zaGFuQGNsZGN2ci5jb206UjBzYW5AMTI=' | json fields.assignee.displayName
