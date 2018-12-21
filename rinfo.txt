@@ -1,0 +1,4 @@
+Release info
+i6e74522dc24b5797d9f0a321197b908f0fa72ee7 DEV-2879 fdfdf cvcvcv vc testing dfdfdfd Abhishek Patil CC test GITJIRA
+fabd9cdd7f97094195ee881aa7189fddbac1170c DEV-2879 fdfdf testing dfdfdfd Abhishek Patil CC test GITJIRA
+8db9f1f3ea70d47e159d518642da0a981d18904d DEV-2859 testing dfdfdfd Roshan Surana CC testing Jira Github Integration Smart Commit

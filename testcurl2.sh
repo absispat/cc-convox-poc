@@ -1,4 +1,9 @@
-v1="DEV-2879  fdfdf  cvcvcv vc testing dfdfdfd"
+echo "Release info" > rinfo.txt 
+while read p; do
+ echo "$p"
+# echo $p | cut -d " " -f 2
+
+v1=`echo $p`
 
 v2=`echo $v1 | grep -o 'DEV-[^ ,]\+'`
 
@@ -17,5 +22,9 @@ n2=`curl --request GET \
   --url $url1 \
   --header 'Authorization: Basic cm9zaGFuQGNsZGN2ci5jb206UjBzYW5AMTI=' | json fields.summary`
 
-v1="$v1 $n1 $n2"
-echo $v1 
+v1="$v1 Assignee: $n1  Ticket Summary : $n2"
+echo $v1
+echo $v1 >> rinfo.txt
+
+
+done <gittagdiff3.txt
