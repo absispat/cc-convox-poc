@@ -14,11 +14,8 @@ v1=`echo $p`
 
 v2=`echo $v1 | grep -o 'DEV-[^ ,]\+'`
 
-if [ -z "$v2" ]
-then
-     echo "$v2 is empty"
-else
-    
+if [ ! -z "$v2" ]
+then    
 url1="https://selfscore.atlassian.net/rest/api/3/issue/$v2?fields=summary,assignee"
 
 

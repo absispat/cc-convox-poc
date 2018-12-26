@@ -1,8 +1,6 @@
-Release Notes
-
-6e74522dc24b5797d9f0a321197b908f0fa72ee7 DEV-2879 fdfdf cvcvcv vc testing dfdfdfd | Assignee: Abhishek Patil | Ticket Summary : CC test GITJIRA
-fabd9cdd7f97094195ee881aa7189fddbac1170c DEV-2879 fdfdf testing dfdfdfd | Assignee: Abhishek Patil | Ticket Summary : CC test GITJIRA
-8db9f1f3ea70d47e159d518642da0a981d18904d DEV-2859 testing dfdfdfd | Assignee: Roshan Surana | Ticket Summary : CC testing Jira Github Integration Smart Commit
+6e74522dc24b5797d9f0a321197b908f0fa72ee7 DEV-2879  fdfdf  cvcvcv vc testing dfdfdfd
+fabd9cdd7f97094195ee881aa7189fddbac1170c DEV-2879  fdfdf testing dfdfdfd
+8db9f1f3ea70d47e159d518642da0a981d18904d DEV-2859 testing dfdfdfd
 a45559b4c12987c122ca561c549ad52987903819 asasvdfdf
 0bcfb613e7e97457f1fed5ff724b5e48b621697a asasvdfdf
 fd2c3833cc4e1b7e323aa8cb1606c9583cf75257 asas
@@ -25,7 +23,7 @@ c64e20444df6dcb5cff0f8de322b631b33c2a141 TES-2 #comment testing jira bot
 7b1e6f518e3c5478f587ff7baf5372d62832dd93 [TES-2] #comment 1w 2d 4h 30m Total work logged
 43886fde95975ed80a74a405fa30c4455899a8df TES-2 #time 1w 2d 4h 30m Total work logged
 0d799791ad807f7f31d31be74e1293a7dda004ee TES-2 #comment testing
-85fe33417ecf00fa5934db85370a53eebd6edb3e DEV-2879 #comment ksdjksjdksjdk | Assignee: Abhishek Patil | Ticket Summary : CC test GITJIRA
+85fe33417ecf00fa5934db85370a53eebd6edb3e DEV-2879 #comment ksdjksjdksjdk
 7bff79ae9c304eaffa5905ccf2880ebc4a77ebc8 TEST-3 making commit
 c71760306c68e8b3bc5b562a4ad597751e718ac2 TEST-4 #DONE #comment Fixed this today
 84dfda50e43a748c51314600b49b2c668a9e9fb1 JRA-090 #DONE #comment Fixed this today
