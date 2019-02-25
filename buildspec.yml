@@ -1,41 +1,32 @@
 version: 0.2
 
 env:
+ plaintext:
+  appname: ""
  parameter-store:
-  convox_password: "dockerLoginPassword"
-   
+  convox_password: ""
+  quay_username: ""
+  quay_password: ""
+
 phases:
   install:
     commands:
-      - apt-get update -y
       - echo Entered the install phase...
+      - apt-get update -y
       - curl -L https://convox.com/cli/linux/convox -o /tmp/convox
       - mv /tmp/convox /usr/local/bin/convox
-      - chmod 755 /usr/local/bin/convox 
-      - echo $convox_password
-      - convox login console.convox.com -p $convox_password  
-      #- convox switch personal/demo-deserve-poc      
-      
-    finally:
-      - echo This always runs even if the update or install command fails
-  pre_build:
-    commands:
-      - echo Entered the pre_build phase...
+      - chmod 755 /usr/local/bin/convox
+      - docker login quay.io -u $quay_username -p $quay_password
 
-    finally:
-      - echo This always runs even if the login command fails
   build:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      #- RELEASE_ID=$(convox build -a poc-app -m convox.yml --id)
-           
-    finally:
-      - echo This always runs even if the install command fails
+      - cat buildspec.yml
+      - echo Build completed on `date`
+
   post_build:
     commands:
       - echo Entered the post_build phase...
-      - echo Build completed on `date`
-      #- convox run web ls -a poc-app --release $RELEASE_ID
-      #- convox releases promote $RELEASE_ID -a poc-app  
-      
+      - echo Post build started on `date`
+      - echo Post build completed on `date`
